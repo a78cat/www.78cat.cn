@@ -1,0 +1,25 @@
+.link ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.link ul li {
+    width: 150px;
+    height: 40px;
+    margin: 70px;
+    text-align: center;
+    display: inline-block;
+}
+.link ul .available:hover {
+    background-color: orange;
+    border-radius: 30px;
+}
+
+.link ul li a {
+    line-height: 40px;
+    font-size: 18pt;
+    color: #f5f5f5;
+    text-decoration-line: none;
+}

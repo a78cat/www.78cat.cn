@@ -1,0 +1,50 @@
+.typestyle h1 {
+    color: snow;
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    position: relative;
+}
+
+.typestyle h1::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 7px;
+    height: 5rem;
+    border-radius: 2px;
+    right: -12px;
+    background-color: snow;
+}
+
+.typestyle h1.ended::after {
+    animation: 1.1s cursor steps(2, jump-none) infinite;
+}
+
+@keyframes cursor {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.typestyle h1 span {
+    --delay: 10s;
+    display: inline-block;
+    overflow: hidden;
+    width: 0ch;
+    animation: 60ms text-in ease-in-out forwards;
+    animation-delay: var(--delay);
+}
+
+@keyframes text-in {
+    from {
+        width: 0ch;
+    }
+    to {
+        width: 1ch;
+    }
+}
