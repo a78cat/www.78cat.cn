@@ -1,2 +1,2 @@
 # 78cat.cn
-my front website
+我的首页
