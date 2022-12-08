@@ -1,0 +1,12 @@
+.footer-container {
+    margin: 0 10%;
+    text-align: center;
+    color: snow;
+}
+
+.footer-container .icp a {
+    color: snow;
+}
+.footer-container .icp a:hover {
+    color: lightblue;
+}

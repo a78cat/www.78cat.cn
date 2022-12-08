@@ -1,23 +1,23 @@
 @media only screen and (max-width: 420px) {
-    .typestyle {
+    .container .title {
         margin-top: 24%;
         margin-bottom: 13%;
     }
-    .typestyle h1 {
+    .container .title h1 {
         font-size: 3rem;
     }
-    .typestyle h1::after {
+    .container .title h1::after {
         width: 4px;
         height: 3rem;
         right: -7px;
     }
 
-    .link ul li {
+    .container .link ul li {
         width: 200px;
         height: 50px;
         margin: 30px;
     }
-    .link ul li a {
+    .container .link ul li a {
         line-height: 50px;
         font-size: 18pt;
     }
