@@ -1,9 +1,3 @@
-/*字体*/
-@font-face {
-    font-family: SmileySans;
-    src: url("/fonts/SmileySans-Oblique.ttf.woff2") format("truetype");
-}
-
 /*全局样式*/
 * {
     box-sizing: border-box;
@@ -20,7 +14,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin: 2rem 0 1rem;
     font-family: SmileySans;
 }
 
@@ -32,7 +26,6 @@ a {
     color: white;
     text-decoration: none;
 }
-
 
 /*头部样式*/
 header {
@@ -66,9 +59,9 @@ nav li {
 }
 
 @media only screen and (min-width: 600px) {
-    /* Header Styles for screens wider than 600px */
+    /*宽于600px时的头部样式*/
     header {
-        padding: 2rem;
+        padding: 1rem 10%;
     }
 
     header h1 {
@@ -82,26 +75,17 @@ nav li {
     }
 }
 
-
-
 /*主样式*/
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 1rem;
 }
 
 @media only screen and (min-width: 600px) {
-    /* Main Styles for screens wider than 600px */
+    /*宽于600px时的主样式*/
     main {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        padding: 0 20%;
     }
 }
-
-
 
 /*脚部样式*/
 footer {

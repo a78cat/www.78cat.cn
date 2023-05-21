@@ -1,0 +1,5 @@
+/*字体*/
+@font-face {
+    font-family: SmileySans;
+    src: url("/fonts/SmileySans-Oblique.ttf.woff2") format("truetype");
+}
