@@ -1,0 +1,112 @@
+/*字体*/
+@font-face {
+    font-family: SmileySans;
+    src: url("/fonts/SmileySans-Oblique.ttf.woff2") format("truetype");
+}
+
+/*全局样式*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: SmileySans;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*头部样式*/
+header {
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header h1 {
+    color: white;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+nav {
+    flex-basis: 100%;
+    margin-top: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+    /* Header Styles for screens wider than 600px */
+    header {
+        padding: 2rem;
+    }
+
+    header h1 {
+        flex-basis: auto;
+        text-align: left;
+    }
+
+    nav {
+        flex-basis: auto;
+        margin-top: 0;
+    }
+}
+
+
+
+/*主样式*/
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+    /* Main Styles for screens wider than 600px */
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+
+
+/*脚部样式*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
