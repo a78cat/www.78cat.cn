@@ -1,17 +1,10 @@
-main .link h1 {
+.main-container h2 {
     color: black;
     background-color: lightgray
 }
-
+.main-container li {
+    display: inline;
+}
 @media only screen and (min-width: 600px) {
-    /*宽于600px时的样式*/
-    main .link h1 {
-        color: black;
-        background-color: lightgray
-    }
-
-    main .link ul {
-
-    }
 
 }

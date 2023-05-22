@@ -1,0 +1,12 @@
+main .link h1 {
+    color: black;
+    background-color: lightgray
+}
+
+@media only screen and (min-width: 600px) {
+    /*宽于600px时的样式*/
+    main .link h1 {
+        color: black;
+        background-color: lightgray
+    }
+}
