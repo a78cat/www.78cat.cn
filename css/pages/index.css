@@ -1,6 +1,7 @@
 .main-container h2 {
     color: black;
-    background-color: lightgray
+    background-color: lightgray;
+    border-radius: 4px;
 }
 .main-container ul {
     width: auto;
