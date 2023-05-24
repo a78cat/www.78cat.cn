@@ -2,8 +2,13 @@
     color: black;
     background-color: lightgray
 }
+.main-container ul {
+    width: auto;
+    height: auto;
+}
 .main-container li {
     display: inline;
+    margin: 10px;
 }
 @media only screen and (min-width: 600px) {
 
