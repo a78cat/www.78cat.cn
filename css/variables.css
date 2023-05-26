@@ -3,3 +3,8 @@
     font-family: SmileySans;
     src: url("/fonts/SmileySans-Oblique.ttf.woff2") format("truetype");
 }
+
+@font-face {
+    font-family: SourceHanSerifCN;
+    src: url("/fonts/SourceHanSerifCN-Medium.otf") format("truetype");
+}

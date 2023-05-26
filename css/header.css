@@ -1,0 +1,47 @@
+/*头部样式*/
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+header h1 {
+    color: white;
+    flex-basis: 100%;
+    font-size: 3rem;
+    text-align: center;
+}
+
+header nav {
+    flex-basis: 100%;
+    margin-top: 1rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header nav li {
+    margin: 0 1rem;
+}
+
+/*宽于600px时的头部样式*/
+@media only screen and (min-width: 600px) {
+
+    header {
+        padding: 1rem 10%;
+    }
+
+    header h1 {
+        flex-basis: auto;
+        text-align: left;
+    }
+
+    header nav {
+        flex-basis: auto;
+        margin-top: 0;
+    }
+}
