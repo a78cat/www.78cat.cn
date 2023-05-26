@@ -15,7 +15,6 @@ main {
     height: auto;
 }
 .main-container li {
-    font-family: SimSun, Arial, Helvetica, sans-serif;
     display: inline-block;
     margin: 10px 30px;
     border: 2px black solid;
