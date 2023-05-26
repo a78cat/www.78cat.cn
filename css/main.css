@@ -3,13 +3,6 @@ main {
     background-color: black;
     padding: 3% 10%;
 }
-
-/*宽于600px时的主样式*/
-@media only screen and (min-width: 600px) {
-    main {
-        padding: 5% 20%;
-    }
-}
 .main-container h2 {
     font-size: 1.5rem;
     color: black;
@@ -22,12 +15,20 @@ main {
     height: auto;
 }
 .main-container li {
-    font-size: 1rem;
+    font-family: SimSun, Arial, Helvetica, sans-serif;
     display: inline-block;
     margin: 10px 30px;
-    border: 1px black solid;
+    border: 2px black solid;
+    padding: 5px 10px;
 }
 .main-container li:hover{
-    border: 1px white solid;
-    border-radius: 3px;
+    border: 2px white solid;
+    border-radius: 5px;
+}
+
+/*宽于600px时的主样式*/
+@media only screen and (min-width: 600px) {
+    main {
+        padding: 5% 20%;
+    }
 }
