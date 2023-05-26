@@ -17,12 +17,7 @@ main {
 .main-container li {
     display: inline-block;
     margin: 10px 30px;
-    border: 2px black solid;
     padding: 5px 10px;
-}
-.main-container li:hover{
-    border: 2px white solid;
-    border-radius: 5px;
 }
 
 /*宽于600px时的主样式*/
