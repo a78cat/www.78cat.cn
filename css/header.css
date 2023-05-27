@@ -6,22 +6,23 @@ header {
     align-items: center;
     padding: 1rem;
 }
-header h1 {
+.header-container h1 {
     color: white;
     flex-basis: 100%;
     font-size: 3rem;
     text-align: center;
+    letter-spacing: 2px;
 }
-header nav {
+.header-container nav {
     flex-basis: 100%;
     margin-top: 1rem;
 }
-header nav ul {
+.header-container nav ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-header nav li {
+.header-container nav li {
     margin: 0 1rem;
 }
 
@@ -32,12 +33,12 @@ header nav li {
         padding: 1rem 10%;
     }
 
-    header h1 {
+    .header-container h1 {
         flex-basis: auto;
         text-align: left;
     }
 
-    header nav {
+    .header-container nav {
         flex-basis: auto;
         margin-top: 0;
     }

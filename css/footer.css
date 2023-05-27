@@ -5,3 +5,7 @@ footer {
     padding: 1rem;
     text-align: center;
 }
+
+.footer-container p {
+    word-spacing: 1px;
+}
