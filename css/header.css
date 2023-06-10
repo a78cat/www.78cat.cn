@@ -13,18 +13,6 @@ header {
     text-align: center;
     letter-spacing: 2px;
 }
-.header-container nav {
-    flex-basis: 100%;
-    margin-top: 1rem;
-}
-.header-container nav ul {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.header-container nav li {
-    margin: 0 1rem;
-}
 
 /*宽于600px时的头部样式*/
 @media only screen and (min-width: 600px) {
@@ -36,10 +24,5 @@ header {
     .header-container h1 {
         flex-basis: auto;
         text-align: left;
-    }
-
-    .header-container nav {
-        flex-basis: auto;
-        margin-top: 0;
     }
 }
