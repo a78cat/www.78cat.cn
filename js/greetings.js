@@ -3,7 +3,7 @@ const midnight_hour = 0;
 const night_hour = 6;
 const morning_hour = 10;
 const midday_hour = 15;
-const afternoon_hour = 18;
+const afternoon_hour = 19;
 const evening_hour = 22;
 
 //获取当前小时数(0-23)
@@ -14,7 +14,7 @@ const greetings = document.getElementById('greetings');
 let greeting_text = '';
 //设置规则
 if (midnight_hour <= now_hour && now_hour < night_hour) {
-    greeting_text = '大半夜的，还tm不睡';
+    greeting_text = '大半夜的还不睡？';
 } else if (night_hour <= now_hour && now_hour < morning_hour) {
     greeting_text = '早！打工人';
 } else if (morning_hour <= now_hour && now_hour < midday_hour) {
@@ -24,7 +24,7 @@ if (midnight_hour <= now_hour && now_hour < night_hour) {
 } else if (afternoon_hour <= now_hour && now_hour < evening_hour) {
     greeting_text = '晚上好';
 } else if (evening_hour <= now_hour && now_hour < 24) {
-    greeting_text = '再不睡等着猝死吧你';
+    greeting_text = `夜深了，早些休息`;
 }
 //修改问候语
 greetings.innerText = greeting_text;
