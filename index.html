@@ -58,7 +58,14 @@
 <!--底栏-->
     <footer>
         <div class="footer-container">
-            <p class="copyright">&copy;&nbsp;2022-2023&nbsp;<a href="https://78cat.cn"><span>78cat</span></a>.&nbsp;All rights reserved.</p>
+            <p class="copyright">&copy;&nbsp;2022-<span id="currentYear"></span>&nbsp;<a href="https://78cat.cn"><span>78cat</span></a>.&nbsp;All rights reserved.</p>
+            <script>
+                // 获取当前年份
+                const currentDate = new Date();
+                const currentYear = currentDate.getFullYear();
+                // 将年份插入到 HTML 元素中
+                document.getElementById("currentYear").textContent = currentYear;
+            </script>
         </div>
     </footer>
 </body>
