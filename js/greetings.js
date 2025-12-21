@@ -7,7 +7,9 @@ const afternoon_hour = 19;
 const evening_hour = 22;
 
 //获取当前小时数(0-23)
-const now_hour = String(new Date().getHours()).padStart(2, '0');
+// const now_hour = String(new Date().getHours()).padStart(2, '0');
+const now_hour = new Date().getHours();
+console.log(now_hour)
 //获取页面问候元素
 const greetings = document.getElementById('greetings');
 //记录想修改的问候
@@ -28,3 +30,4 @@ if (midnight_hour <= now_hour && now_hour < night_hour) {
 }
 //修改问候语
 greetings.innerText = greeting_text;
+
